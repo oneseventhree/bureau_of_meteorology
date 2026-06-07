@@ -51,7 +51,7 @@ MAP_CONDITION: Final = {
     "light_rain": "rainy",
     "light_shower": "rainy",
     "light_showers": "rainy",
-    "mostly_sunny": "sunny",
+    "mostly_sunny": "partlycloudy",
     "partly_cloudy": "partlycloudy",
     "rain": "rainy",
     "shower": "rainy",
