@@ -117,7 +117,7 @@ class Collector:
                 icon_desc = d.get("icon_descriptor")
 
                 # Override icon_descriptor if it's night and icon is sunny/mostly_sunny
-                if is_night and icon_desc in {"sunny", "mostly_sunny"}:
+                if is_night and icon_desc == "sunny":
                     d["icon_descriptor"] = "clear"
                 # Override icon_descriptor if its clear during the day
                 elif not is_night and icon_desc == "clear":
